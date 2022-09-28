@@ -137,3 +137,36 @@ footer{
   justify-content: space-between;
   align-items: center;
 }
+
+/*footer left*/
+footer .footer-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  color: #7c7e83;
+}  
+
+footer .footer-left .anteprima{
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-left .anteprima img{
+  width: 6vh;
+  margin: 0 10px;
+}
+
+footer .footer-left .anteprima .brano{
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+footer .footer-left .anteprima .brano p:first-child{
+  color:#FFFFFF;
+  font-size: 0.8rem;
+}
+
+footer .footer-left .options i{
+  margin-left: 5px;
+}
