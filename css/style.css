@@ -39,11 +39,11 @@ header .btn a{
 }
 
 /*main*/
-
 main .container{
   display: flex;
 }
 
+/*menu laterale*/
 main .menu-laterale{
   background-color: black;
   color: white;
@@ -51,11 +51,35 @@ main .menu-laterale{
   height: calc(100vh - 80px);
 }
 
+/*main content*/
 main .main-content{
   width: calc(100% - 200px);
   height: calc(100vh - 80px);
   overflow-y: auto;
+  background-color: #141922;
 }
+
+/*main nav*/
+main .main-content .main-menu{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+main .main-content .main-menu ul{
+  list-style: none;
+  display: flex;
+}
+
+main .main-content .main-menu ul li{
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: bold;
+  color: #7c7e83;
+  cursor: pointer;
+}
+
 
 /*footer*/
 footer{
