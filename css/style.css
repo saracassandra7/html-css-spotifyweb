@@ -12,7 +12,7 @@ body{
 /*header*/
 header{
   background-color: rgba(0, 0, 0, .8);
-  height: 60px;
+  height: 80px;
   width: calc(100% - 200px);
   color: white;
   display: flex;
@@ -20,6 +20,22 @@ header{
   align-items: center;
   position: fixed;
   right: 0;
+}
+
+/*pulsante nell'header*/
+header .btn{
+  padding: 10px 30px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+header .btn a{
+  text-decoration: none;
+  color: #FCFCFC;
+  font-size: .75rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /*main*/
@@ -32,18 +48,18 @@ main .menu-laterale{
   background-color: black;
   color: white;
   width: 200px;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 80px);
 }
 
 main .main-content{
   width: calc(100% - 200px);
-  height: calc(100vh - 70px);
+  height: calc(100vh - 80px);
   overflow-y: auto;
 }
 
 /*footer*/
 footer{
-  height: 70px;
+  height: 80px;
   width: 100%;
   background-color: #282828;
   color: white;
