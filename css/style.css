@@ -9,6 +9,12 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+/*utility*/
+.debug{
+  background-color: rgba(214, 151, 183, 0.25);
+  border: 1px solid brown;
+}
+
 /*header*/
 header{
   background-color: rgba(0, 0, 0, .8);
@@ -91,6 +97,35 @@ main .main-content .main-menu ul li:hover{
   color: white;
 }
 
+/*recently played*/
+main .box{
+  margin: 30px 10px;
+  overflow-x: hidden;
+}
+
+main .box .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .box .row .box-song{
+  /*da togliere*/
+  width: 150px;
+  height: 200px;
+  overflow-y: hidden;
+  margin: 0 10px;
+}
+
+main .box .row .box-song .album{
+  /*da togliere*/
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+}
+
+main .box .row .box-song p{
+  width: 100%;
+}
 
 /*footer*/
 footer{
