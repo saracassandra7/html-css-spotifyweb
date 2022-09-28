@@ -62,16 +62,16 @@ main .main-content{
 /*main nav*/
 main .main-content .main-menu{
   margin-top: 90px;
-  display: flex;
-  justify-content: center;
-
 }
 
 main .main-content .main-menu ul{
   list-style: none;
   display: flex;
-  flex-wrap: wrap; /*non funziona*/
+  justify-content: center;
+  flex-wrap: wrap;
   flex-shrink: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 main .main-content .main-menu ul li{
