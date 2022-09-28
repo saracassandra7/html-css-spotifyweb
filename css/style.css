@@ -170,3 +170,31 @@ footer .footer-left .anteprima .brano p:first-child{
 footer .footer-left .options i{
   margin-left: 5px;
 }
+
+/*footer right*/
+footer .footer-right{
+  display: flex;
+
+}
+
+footer .footer-right i{
+  color:#FCFCFC;
+  padding: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+footer .footer-right .bar{
+  align-items: center;
+}
+
+footer .footer-right .bar hr{
+  width: 20vh; /*da rivedere*/
+  height: 5px;
+  background-color: #5A5A5A;
+  border: none;
+  border-radius: 5px;
+  border-left: 5vh solid #C1C1C1;
+  cursor: pointer;
+  margin: 8px;
+}
