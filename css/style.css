@@ -77,8 +77,12 @@ main .menu-laterale .menu-rapido #logo-big{
   width: 70%;
 }
 
+main .menu-laterale .menu-rapido #logo-small{
+  display: none;
+}
+
 main .menu-laterale .menu-rapido nav ul li img{
-  width: 13%;
+  width: 20px;
 }
 
 main .menu-laterale .menu-rapido .lista-playlist{
@@ -105,7 +109,7 @@ main .menu-laterale .menu-rapido .fa-square-plus{
 }
 
 main .menu-laterale .bottom-menu .download img{
-  width: 10%;
+  width: 18px;
 }
 
 main .menu-laterale .bottom-menu .profile{
@@ -115,7 +119,7 @@ main .menu-laterale .bottom-menu .profile{
 }
 
 main .menu-laterale .bottom-menu .profile img{
-  width: 12%;
+  width: 20px;
   background-color: #7c7e83;
   border-radius: 50%;
   margin-right: 7px;
@@ -268,4 +272,42 @@ footer .footer-right .bar hr{
   border-left: 5vh solid #C1C1C1;
   cursor: pointer;
   margin: 8px;
+}
+
+/************soluzioni resposnive**************/
+@media screen and (max-width: 589px){
+  main .menu-laterale{
+    width: 50px;
+    align-items: center;
+  }
+
+  header, main .main-content{
+    width: calc(100vh - 50px);
+  }
+
+  main .menu-laterale .menu-rapido #logo-big{
+    display: none;
+  }
+
+  main .menu-laterale .menu-rapido #logo-small{
+    display: block;
+    width: 20px;
+    padding-bottom: 10px;
+  }
+
+  main .menu-laterale .menu-rapido nav ul li span, .menu-rapido h4, .menu-rapido .lista-playlist, .menu-rapido span, .menu-laterale .bottom-menu span{
+    display: none;
+  }
+
+  main .menu-laterale .bottom-menu .download{
+    border: none;
+    margin-left: 20px;
+  }
+
+  main .menu-laterale .bottom-menu .profile{
+    width: 40px;
+    margin-left: 20px;
+  }
+
+
 }
