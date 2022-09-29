@@ -249,6 +249,7 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 /*footer left*/
@@ -284,6 +285,32 @@ footer .footer-left .options i{
   margin-left: 5px;
 }
 
+/*footer center*/
+footer .footer-center .player-top{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer .footer-center .player-top i{
+  color: white;
+  font-size: 1.4rem;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+
+footer .footer-center .player-bottom #pitch{
+  width: 60vh;
+  margin-top: 5px;
+}
+
+footer .footer-center .player-bottom span{
+  font-size: .8rem;
+  padding: 5px;
+}
+
+
 /*footer right*/
 footer .footer-right{
   display: flex;
@@ -301,16 +328,11 @@ footer .footer-right .bar{
   align-items: center;
 }
 
-footer .footer-right .bar hr{
-  width: 20vh; /*da rivedere*/
-  height: 5px;
-  background-color: #5A5A5A;
-  border: none;
-  border-radius: 5px;
-  border-left: 5vh solid #C1C1C1;
-  cursor: pointer;
-  margin: 8px;
+footer .footer-right .bar #pitch{
+  width: 17vh;
+  margin-right: 10px;
 }
+
 
 /************soluzioni resposnive**************/
 /*menu laterale*/
