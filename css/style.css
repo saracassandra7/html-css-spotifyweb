@@ -55,7 +55,78 @@ main .menu-laterale{
   color: white;
   width: 200px;
   height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+/*menu rapido del menu laterale*/
+main .menu-laterale .menu-rapido, .bottom-menu{
+  padding: 20px;
+  color: #7c7e83;
+  line-height: 200%;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+main .menu-laterale .menu-rapido ul{
+  list-style: none;
+}
+
+main .menu-laterale .menu-rapido #logo-big{
+  width: 70%;
+}
+
+main .menu-laterale .menu-rapido nav ul li img{
+  width: 13%;
+}
+
+main .menu-laterale .menu-rapido .lista-playlist{
+  overflow: auto;
+  height: calc(100vh - 440px);
+}
+
+main .menu-laterale .menu-rapido h4{
+  color: white;
+  font-size: .9rem;
+  margin-top: 15px;
+}
+
+main .menu-laterale .menu-rapido .fa-square-plus{
+  font-size: 2.5rem;
+}
+
+/*bottom menu del menu laterale*/
+
+
+.download{
+  padding-bottom: 5px;
+  border-bottom: 1px solid #7c7e83;
+}
+
+main .menu-laterale .bottom-menu .download img{
+  width: 10%;
+}
+
+main .menu-laterale .bottom-menu .profile{
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+main .menu-laterale .bottom-menu .profile img{
+  width: 12%;
+  background-color: #7c7e83;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+main .menu-laterale .bottom-menu .profile span{
+  color: white;
+  font-size: .9rem;
+}
+
+
 
 /*main content*/
 main .main-content{
