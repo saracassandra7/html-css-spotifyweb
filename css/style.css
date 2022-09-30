@@ -107,8 +107,6 @@ main .menu-laterale .menu-rapido .fa-square-plus{
 }
 
 /*bottom menu del menu laterale*/
-
-
 .download{
   padding-bottom: 5px;
   border-bottom: 1px solid #7c7e83;
@@ -361,7 +359,7 @@ footer .footer-center .player-top .fa-circle-play:hover{
 
 
 footer .footer-center .player-bottom #pitch{
-  width: 40vh;
+  width: 25vw;
   margin-top: 5px;
 }
 
@@ -393,14 +391,15 @@ footer .footer-right .bar{
 }
 
 footer .footer-right .bar #pitch{
-  width: 12vh;
+  width: 12vw;
   margin-right: 10px;
 }
 
 
 /************soluzioni resposnive**************/
-/*menu laterale*/
+
 @media screen and (max-width: 589px){
+  /*menu laterale*/
   main .menu-laterale{
     width: 50px;
     align-items: center;
@@ -434,6 +433,18 @@ footer .footer-right .bar #pitch{
     margin-left: 20px;
   }
 
+  /*footer left*/
+  footer .footer-left .anteprima img{
+    width: 5vh;
+  }
+
+  footer .footer-left .brano p{
+    font-size: .6rem;
+  }
+
+  footer .footer-left .options{
+    flex-direction: column;
+  }
 
 }
 
