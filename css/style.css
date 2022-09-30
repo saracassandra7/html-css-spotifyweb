@@ -19,7 +19,7 @@ body{
 
 /*header*/
 header{
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .7);
   height: 80px;
   width: calc(100% - 200px);
   color: white;
@@ -141,6 +141,14 @@ main .menu-laterale li:hover, main .menu-laterale span:hover{
   cursor: pointer;
 }
 
+/*classe active nel menu laterale*/
+main .menu-rapido .active{
+  width: 3px;
+  height: 23px;
+  background-color: lime;
+  position: absolute;
+  left: 0;
+}
 
 /*main content*/
 main .main-content{
@@ -329,6 +337,12 @@ footer .footer-left .options i:hover{
   color: #FFFFFF;
 }
 
+footer .footer-left .anteprima .brano p:nth-of-type(2):hover{
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /*footer center*/
 footer .footer-center{
   display: flex;
@@ -364,6 +378,7 @@ footer .footer-center .player-top .fa-circle-play:hover{
 footer .footer-center .player-bottom #pitch{
   width: 25vw;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 footer .footer-center .player-bottom span{
@@ -396,6 +411,7 @@ footer .footer-right .bar{
 footer .footer-right .bar #pitch{
   width: 12vw;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 
@@ -420,6 +436,10 @@ footer .footer-right .bar #pitch{
     display: block;
     width: 20px;
     padding-bottom: 10px;
+  }
+
+  main .menu-rapido .active{
+    display: none;
   }
 
   main .menu-laterale .menu-rapido nav ul li span, .menu-rapido h4, .menu-rapido .lista-playlist, .menu-rapido span, .menu-laterale .bottom-menu span{
