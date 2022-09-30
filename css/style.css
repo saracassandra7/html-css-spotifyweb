@@ -8,6 +8,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   background-color: #141922;
+  overflow: hidden;
 }
 
 /*utility*/
@@ -281,6 +282,8 @@ footer{
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  position: relative;
+  z-index: 998;
 }
 
 /*footer left*/
