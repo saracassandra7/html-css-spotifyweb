@@ -266,7 +266,7 @@ footer .footer-left{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 15%;
+  width: 13%;
   color: #7c7e83;
 }  
 
@@ -290,11 +290,28 @@ footer .footer-left .anteprima .brano p:first-child{
   font-size: 0.8rem;
 }
 
+footer .footer-left .options{
+  display: flex;
+  flex-shrink: 0;
+}
+
 footer .footer-left .options i{
   margin-left: 5px;
+  cursor: pointer;
+}
+
+footer .footer-left .options i:hover{
+  color: #FFFFFF;
 }
 
 /*footer center*/
+footer .footer-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 footer .footer-center .player-top{
   display: flex;
   justify-content: center;
@@ -303,14 +320,24 @@ footer .footer-center .player-top{
 
 footer .footer-center .player-top i{
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-center .player-top .fa-circle-play{
+  font-size: 1.5rem;
+}
+
+footer .footer-center .player-top .fa-circle-play:hover{
+  transform: scale(1.2);
 }
 
 
 footer .footer-center .player-bottom #pitch{
-  width: 50vh;
+  width: 40vh;
   margin-top: 5px;
 }
 
@@ -323,7 +350,11 @@ footer .footer-center .player-bottom span{
 /*footer right*/
 footer .footer-right{
   display: flex;
+}
 
+footer .footer-right .icons{
+  display: flex;
+  flex-shrink: 0;
 }
 
 footer .footer-right i{
@@ -338,7 +369,7 @@ footer .footer-right .bar{
 }
 
 footer .footer-right .bar #pitch{
-  width: 15vh;
+  width: 12vh;
   margin-right: 10px;
 }
 
