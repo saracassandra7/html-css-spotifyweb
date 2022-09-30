@@ -27,6 +27,7 @@ header{
   align-items: center;
   position: fixed;
   right: 0;
+  z-index: 999;
 }
 
 /*pulsante nell'header*/
@@ -213,7 +214,7 @@ main .box .row .box-song{
 }
 
 main .box .row .box-song .album{
-  
+  position: relative;
   margin-bottom: 30px;
 }
 
@@ -247,6 +248,29 @@ main .box .row .box-song span{
 
 main .box .row .box-song .rounded{
   border-radius: 50%;
+}
+
+/*effetto hover nel main*/
+main .box-song .play{
+  background-color: rgba(0, 0, 0, .6);
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+main .box-song .play #click-play{
+  color: white;
+  font-size: 3.5rem;
+}
+
+main .box-song .album:hover .play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 /*footer*/
